@@ -78,14 +78,14 @@ console.log(arrayStr(['ade', 4, 'love']))
 // { edward: 'fabulous'}    | { edward: 'fabulous'}
 
 // TODO: write code below
+
 function objectProp(obj) {
   if (obj.edward === undefined) {
     obj.edward = 'amazing'
   }
   return obj
 }
-const myObj = {}
-console.log(objectProp(myObj))
+console.log(objectProp({}))
 
 // TODO: change each undefined below to be the name of the functions you defined
 module.exports = {
